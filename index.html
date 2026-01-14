@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jade Devs — Portfolio</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">JD</div>
+        <div class="brand-text">
+          <div class="brand-name">Jade Devs</div>
+          <div class="brand-sub">Creative code that converts</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main-grid">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-left">
+        <h1 class="hero-title">Jade Devs</h1>
+        <p class="hero-bio">
+          We build polished websites that grow businesses — <strong>blogs</strong>, <strong>marketplaces</strong>,
+          <strong>e-commerce</strong>, and <strong>web apps</strong>. Fast, secure and conversion focused.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn primary" href="mailto:osanebijo@gmail.com">Hire me — osanebijo@gmail.com</a>
+          <a class="btn outline" href="#portfolio">See portfolio</a>
+        </div>
+
+        <p class="small-note">Full builds, CMS integration, payment flows and maintenance plans.</p>
+      </div>
+
+      <aside class="hero-right">
+        <div class="card recent-work">
+          <div class="card-title">Recent work</div>
+          <div class="work-list">
+            <div class="mini-work">
+              <svg class="mini-thumb" viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GreenShop mini">
+                <defs>
+                  <linearGradient id="m1" x1="0" x2="1"><stop offset="0%" stop-color="#00bfa5"/><stop offset="100%" stop-color="#007f6a"/></linearGradient>
+                </defs>
+                <rect width="100%" height="100%" rx="8" fill="url(#m1)"/>
+                <rect x="14" y="12" width="120" height="16" rx="4" fill="rgba(255,255,255,0.85)"/>
+                <rect x="14" y="36" width="80" height="10" rx="3" fill="rgba(255,255,255,0.5)"/>
+                <rect x="14" y="56" width="80" height="50" rx="6" fill="rgba(0,0,0,0.14)"/>
+              </svg>
+              <div>
+                <div class="mini-title">GreenShop Market</div>
+                <div class="mini-sub">Marketplace demo</div>
+              </div>
+            </div>
+
+            <div class="mini-work">
+              <svg class="mini-thumb" viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Writerly mini">
+                <defs>
+                  <linearGradient id="m2" x1="0" x2="1"><stop offset="0%" stop-color="#2f80ed"/><stop offset="100%" stop-color="#56ccf2"/></linearGradient>
+                </defs>
+                <rect width="100%" height="100%" rx="8" fill="url(#m2)"/>
+                <rect x="14" y="14" width="180" height="14" rx="4" fill="rgba(255,255,255,0.92)"/>
+                <rect x="14" y="36" width="240" height="8" rx="3" fill="rgba(255,255,255,0.4)"/>
+                <rect x="14" y="56" width="200" height="8" rx="3" fill="rgba(255,255,255,0.3)"/>
+              </svg>
+              <div>
+                <div class="mini-title">Writerly Blog</div>
+                <div class="mini-sub">Content platform</div>
+              </div>
+            </div>
+
+            <div class="mini-work">
+              <svg class="mini-thumb" viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Studio mini">
+                <defs>
+                  <linearGradient id="m3" x1="0" x2="1"><stop offset="0%" stop-color="#6a11cb"/><stop offset="100%" stop-color="#2575fc"/></linearGradient>
+                </defs>
+                <rect width="100%" height="100%" rx="8" fill="url(#m3)"/>
+                <rect x="14" y="12" width="120" height="14" rx="4" fill="rgba(255,255,255,0.94)"/>
+                <rect x="14" y="36" width="140" height="8" rx="3" fill="rgba(255,255,255,0.4)"/>
+                <rect x="14" y="56" width="260" height="84" rx="8" fill="rgba(255,255,255,0.06)"/>
+              </svg>
+              <div>
+                <div class="mini-title">Studio Landing</div>
+                <div class="mini-sub">Landing page</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- SERVICES (simple) -->
+    <section id="services" class="services">
+      <h2 class="section-title">What I build</h2>
+      <div class="services-grid">
+        <div class="service">
+          <h3>Custom Blogs</h3>
+          <p>SEO-ready, fast and easy to manage (WordPress / headless).</p>
+        </div>
+        <div class="service">
+          <h3>Online Marketplaces</h3>
+          <p>Multi-vendor flows, payments, product & order management.</p>
+        </div>
+        <div class="service">
+          <h3>Business & e-Commerce</h3>
+          <p>From brochure sites to full stores and analytics.</p>
+        </div>
+        <div class="service">
+          <h3>Web Apps</h3>
+          <p>Dashboards, admin tools and interactive frontends.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+      <h2 class="section-title">Selected Projects</h2>
+
+      <div class="portfolio-inner">
+        <!-- LEFT: projects -->
+        <div class="projects-col">
+          <div class="projects">
+            <!-- GreenShop: realistic mockup -->
+            <article class="proj">
+              <div class="proj-preview">
+                <svg viewBox="0 0 900 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GreenShop mockup">
+                  <defs>
+                    <linearGradient id="gshop" x1="0" x2="1">
+                      <stop offset="0" stop-color="#00bfa5"/>
+                      <stop offset="1" stop-color="#0b6b55"/>
+                    </linearGradient>
+                  </defs>
+
+                  <!-- header/nav -->
+                  <rect x="0" y="0" width="900" height="80" fill="#ffffff" opacity="0.06" rx="0" />
+                  <rect x="24" y="20" width="160" height="14" rx="6" fill="#e6fff9" />
+                  <rect x="200" y="28" width="80" height="8" rx="4" fill="rgba(255,255,255,0.22)" />
+                  <rect x="290" y="28" width="80" height="8" rx="4" fill="rgba(255,255,255,0.22)" />
+                  <rect x="380" y="28" width="80" height="8" rx="4" fill="rgba(255,255,255,0.22)" />
+
+                  <!-- hero area -->
+                  <rect x="0" y="100" width="900" height="220" fill="url(#gshop)" rx="8" />
+                  <rect x="40" y="140" width="420" height="40" rx="10" fill="rgba(255,255,255,0.9)" />
+                  <rect x="40" y="192" width="300" height="12" rx="6" fill="rgba(255,255,255,0.7)" />
+                  <rect x="40" y="212" width="220" height="12" rx="6" fill="rgba(255,255,255,0.6)" />
+
+                  <!-- product cards -->
+                  <rect x="40" y="340" width="160" height="120" rx="10" fill="#ffffff" opacity="0.06" />
+                  <rect x="220" y="340" width="160" height="120" rx="10" fill="#ffffff" opacity="0.06" />
+                  <rect x="400" y="340" width="160" height="120" rx="10" fill="#ffffff" opacity="0.06" />
+                  <rect x="580" y="340" width="160" height="120" rx="10" fill="#ffffff" opacity="0.06" />
+
+                  <!-- small labels -->
+                  <rect x="40" y="476" width="140" height="10" rx="6" fill="rgba(255,255,255,0.18)" />
+                  <rect x="220" y="476" width="140" height="10" rx="6" fill="rgba(255,255,255,0.16)" />
+                </svg>
+              </div>
+
+              <div class="proj-content">
+                <h3>GreenShop Market</h3>
+                <p>Multi-vendor marketplace with seller flows, carts and admin analytics.</p>
+                <div class="proj-actions">
+                  <a class="btn small" href="#">View</a>
+                  <a class="btn small outline" href="mailto:osanebijo@gmail.com?subject=GreenShop%20project">Hire me</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Writerly: mockup -->
+            <article class="proj">
+              <div class="proj-preview">
+                <svg viewBox="0 0 900 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Writerly mockup">
+                  <defs>
+                    <linearGradient id="writerly" x1="0" x2="1">
+                      <stop offset="0" stop-color="#2f80ed"/>
+                      <stop offset="1" stop-color="#56ccf2"/>
+                    </linearGradient>
+                  </defs>
+
+                  <rect x="0" y="0" width="900" height="80" fill="#ffffff" opacity="0.04" />
+                  <rect x="30" y="20" width="180" height="18" rx="8" fill="rgba(255,255,255,0.9)" />
+
+                  <!-- article list / content -->
+                  <rect x="30" y="120" width="640" height="24" rx="8" fill="#ffffff" opacity="0.95" />
+                  <rect x="30" y="156" width="560" height="14" rx="6" fill="rgba(255,255,255,0.85)" />
+                  <rect x="30" y="176" width="580" height="10" rx="6" fill="rgba(255,255,255,0.65)" />
+                  <rect x="30" y="196" width="500" height="10" rx="6" fill="rgba(255,255,255,0.55)" />
+
+                  <!-- sidebar -->
+                  <rect x="690" y="120" width="160" height="280" rx="10" fill="rgba(255,255,255,0.03)" />
+                  <rect x="710" y="140" width="120" height="12" rx="6" fill="rgba(255,255,255,0.6)" />
+                  <rect x="710" y="164" width="90" height="12" rx="6" fill="rgba(255,255,255,0.5)" />
+                </svg>
+              </div>
+
+              <div class="proj-content">
+                <h3>Writerly Blog</h3>
+                <p>Content-first editorial platform built for readability and SEO.</p>
+                <div class="proj-actions">
+                  <a class="btn small" href="#">View</a>
+                  <a class="btn small outline" href="mailto:osanebijo@gmail.com?subject=Writerly%20project">Hire me</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Studio landing: mockup -->
+            <article class="proj">
+              <div class="proj-preview">
+                <svg viewBox="0 0 900 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Studio mockup">
+                  <defs>
+                    <linearGradient id="studio" x1="0" x2="1">
+                      <stop offset="0" stop-color="#6a11cb"/>
+                      <stop offset="1" stop-color="#2575fc"/>
+                    </linearGradient>
+                  </defs>
+
+                  <rect x="0" y="0" width="900" height="80" fill="#ffffff" opacity="0.04" />
+                  <rect x="28" y="22" width="120" height="14" rx="6" fill="rgba(255,255,255,0.94)" />
+
+                  <!-- hero + content blocks -->
+                  <rect x="28" y="110" width="840" height="200" rx="10" fill="url(#studio)" />
+                  <rect x="48" y="150" width="420" height="36" rx="8" fill="rgba(255,255,255,0.95)" />
+                  <rect x="48" y="200" width="260" height="12" rx="6" fill="rgba(255,255,255,0.85)" />
+
+                  <rect x="48" y="330" width="120" height="80" rx="10" fill="rgba(255,255,255,0.03)" />
+                  <rect x="192" y="330" width="120" height="80" rx="10" fill="rgba(255,255,255,0.03)" />
+                </svg>
+              </div>
+
+              <div class="proj-content">
+                <h3>Studio Landing</h3>
+                <p>High-conversion landing page for agencies and studios.</p>
+                <div class="proj-actions">
+                  <a class="btn small" href="#">View</a>
+                  <a class="btn small outline" href="mailto:osanebijo@gmail.com?subject=Studio%20project">Hire me</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- RIGHT: promo card -->
+        <aside class="promo-col">
+          <div class="promo-card">
+            <div class="badge">Featured</div>
+            <h3>Real results — built for growth</h3>
+            <p class="promo-desc">Conversion-first websites with strong UX, fast performance, and CMS-friendly builds.</p>
+
+            <ul class="tech-list">
+              <li>WordPress & Headless CMS</li>
+              <li>Shopify / WooCommerce</li>
+              <li>Stripe / Paystack payments</li>
+              <li>Responsive & SEO-ready</li>
+            </ul>
+
+            <div class="promo-cta">
+              <a class="btn" href="mailto:osanebijo@gmail.com">Get a quote</a>
+            </div>
+
+            <blockquote class="testimonial">“Jade Devs rebuilt our store and doubled conversion in 6 weeks.” — <strong>A. Okoye</strong></blockquote>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <h2 class="section-title">Contact</h2>
+      <p>Send a short description of your project (type, timeline, budget) to:</p>
+      <a class="btn primary" href="mailto:osanebijo@gmail.com">osanebijo@gmail.com</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>© <span id="year"></span> Jade Devs — Built with care</div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
+
